@@ -5,7 +5,7 @@ async function getAIResponse() {
     responseDiv.textContent = "جاري التحميل...";
   
     try {
-      const apiKey = "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"; // استبدل بمفتاحك الخاص
+      const apiKey = "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"; // استبدل بمفتاحك الخاص
       const response = await fetch("https://api.openai.com/v1/chat/completions", {
         method: "POST",
         headers: {
